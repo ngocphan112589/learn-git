@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        <input type="text" id="fname" name="fname" placeholder="First name">
+        <input type="text" id="lname" name="lname" placeholder="Last name"><br><br>
+        <input type="text" id="phone" name="phoneEmail" placeholder="Mobile number or email address"><br><br>
+        <input type="password" id="password" name="password" placeholder="New password"><br><br>
+        <label for="dateOfBirth">Date of birth:</label><br>
+        <select name="Date" id="dates">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <select name="month" id="month">
+            <option value="1">Jan</option>
+            <option value="2">Feb</option>
+            <option value="3">March</option>
+            <option value="4">Apr</option>
+        </select>
+        <select name="year" id="year">
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+        </select>
+        <br><br>
+        <label for="gender">Gender:</label><br>
+        <label for="female">Female</label><input type="radio" id="female" name="gender" value="Female">
+        <label for="male">Male</label><input type="radio" id="male" name="gender" value="Male">
+        <label for="custom">Custom</label><input type="radio" id="custom" name="gender" value="Custom"><br><br>
+        <select name="note" id="note">
+            <option value="1">None</option>
+            <option value="2">She: "Wish her a happy birthday!"</option>
+        </select><br><br>
+        <label>Your pronoun is visible to everyone.</label><br>
+        <input type="text" id="gen" placeholder="Gender (optional)"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
