@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock2</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 5px;
+            max-width: 960px;
+            max-height: 1000px;
+            margin: 0 auto;
+        }
+        .row{
+            width: 1000px;
+        }
+        .row1{
+            height: 50px;
+            width: 920px;
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+            background-color: violet;
+            border:1px solid black;
+        }
+        .row2{
+            display: flex;
+            flex-direction: row;
+        }
+        .col{
+            height: 900px;
+            width: 300px;
+            background-color: aqua;
+            margin: 5px;
+            border:1px solid black;
+        }
+        .col1{
+            background-color: red;
+        }
+        .col2{
+            background-color: green;
+        }
+        .col3{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row row1"></div>
+        <div class="row row2">
+            <div class="col col1"></div>
+            <div class="col col2"></div>
+            <div class="col col3"></div>
+        </div>
+    </div>
+</body>
+</html>
