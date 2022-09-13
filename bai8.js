@@ -14,7 +14,6 @@ for (let i of n) {
         break;
     }
 }
-
 if (flag){
     console.log("YES");
 } else {
